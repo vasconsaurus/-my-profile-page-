@@ -6,7 +6,7 @@
 }
 
 body {
-  padding: 5rem 25rem 5rem 10rem;
+  padding: 10% 30% 10% 10%;
   text-align: left;
 }
 
@@ -95,6 +95,10 @@ li {
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+  h1 {
+    font-size: 8rem;
+  }
+
   .container {
     width: 300px;
   }
