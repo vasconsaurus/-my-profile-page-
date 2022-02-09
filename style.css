@@ -57,11 +57,13 @@ a {
   font-weight: 700;
   color: black;
   text-decoration: wavy underline black 1px;
+  transition: .5s;
 }
 
 a:hover {
   color: darkorange;
   text-decoration: wavy underline darkorange 1px;
+  transition: .5s;
 }
 
 .welcome-section p {
