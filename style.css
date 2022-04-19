@@ -8,7 +8,7 @@
 .container {
   padding: 10% 15% 5% 15%;
   text-align: left;
-  width: 90vw;
+  width: 80vw;
 }
 
 .avatar {
@@ -81,15 +81,25 @@ li {
   margin-right: 0.25rem;
 }
 
-/* @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read
-} */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 90vw;
+  }
+}
 
-/* @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read
-} */
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 90vw;
+  }
+}
 
 @media (max-width: 540px) {
+  .container {
+    width: 90vw;
+  }
+
   h1 {
     font-size: 6rem;
   }
